@@ -1,0 +1,30 @@
+<!--This partial is responible for rendering all your tools from config.toml please update them accordingly -->
+<div class="partial">
+    <h2>{{ .Site.Params.toolsHeader | default "Tools" }}</h2>
+    <div class="tools">
+        {{ range .Site.Params.tools }}
+        <div class="tool-badge" style="color: {{ .color }};">
+            <i class="{{ .icon }}"></i> {{ .name }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+<style>
+    .tools {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tool-badge {
+        display: flex;
+        align-items: center;
+        margin: 2px;
+        padding: 10px;
+        border: 1px solid #0c0c0c;
+        border-radius: 8px;
+        background-color: #3b3838;
+    }
+
+    .tool-badge i {
+        margin-right: 5px;
+    }
+</style>

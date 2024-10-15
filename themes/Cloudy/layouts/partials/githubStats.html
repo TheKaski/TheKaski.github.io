@@ -1,0 +1,20 @@
+<!--This partial is responsible for rendering github profile accordingly -->
+<div class="partial">
+    <div class="custom-githubstats-container">
+        <h2>{{ .Site.Params.githubHeader | default "github stats" }}</h2>
+        <img src="https://github-readme-stats.vercel.app/api/?username=TheKaski&custom_title=Stats&title_color=ffffff&show_icons=true&theme=radical&layout=compact&hide_border=true&ring_color=03cea4&text_color=ffffff&bg_color=45,000000,871b92&hide=prs,issues" />
+        <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheKaski&theme=radical&title_color=ffffff&layout=compact&hide_border=true&text_color=ffffff&bg_color=45,871b92,000000" />
+    </div>
+</div>
+
+<style>
+.custom-github-stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    max-width: 600px;
+    margin-left: 40px;
+    position: relative;
+}
+</style>

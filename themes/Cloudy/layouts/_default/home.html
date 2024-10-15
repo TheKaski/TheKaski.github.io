@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div class="custom-carousel-container">
+    <div class="custom-partial-carousel">
+      {{ partial "skills.html" . }}
+      {{ partial "tools.html" . }}
+      {{ partial "studies.html" . }}
+      {{ partial "githubStats.html" . }}
+    </div>
+
+    <div class="carousel-controls">
+      <button id="prevBtn" class="custom-button"><i class="fa-solid fa-arrow-left"></i></button>
+      <button id="nextBtn" class="custom-button"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  {{ .Content }}
+
+  {{ partial "project-list.html" (first 3 site.RegularPages) }}
+
+  <div class = "custom-button">
+    <h3><a href="/projects">{{ .Site.Params.viewMoreText | default "See more" }}</a></h3>
+  </div>
+{{ end }}

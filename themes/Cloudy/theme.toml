@@ -1,0 +1,16 @@
+description = 'Theme description'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+name = 'Theme name'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/TheKaski/TheKaski.github.io'
+
+# Taxonomy terms
+features = ['some', 'awesome', 'features']
+tags = ['blog', 'company']
+
+# If the theme has a single author
+[author]
+homepage = 'Your website'
+name = 'Emil Kaskikallio'

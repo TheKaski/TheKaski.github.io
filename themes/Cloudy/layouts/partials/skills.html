@@ -1,0 +1,76 @@
+<!--This partial is responible for rendering all your defined skills from config.toml please update them accordingly -->
+<div class="partial">
+    <h2>{{ .Site.Params.skillsHeader | default "Skills" }}</h2>
+    <div class="skills">   
+        {{ range .Site.Params.skills }}
+        <div class="skill">
+            <div class="shape-wrapper">
+                <div class="shape" style="background-color: {{ .color }};">
+                    <i class="{{ .icon }}"></i> {{ .name }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+<style>
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    max-width: 600px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.skill {
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative; 
+    width: 100px; 
+    height: 100px; 
+    z-index: -10;
+}
+
+.shape-wrapper {
+   position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 100px; 
+}
+
+.shape {
+    position: relative;
+    top: 100px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 75px; 
+    height: 75px; 
+    border-radius: 50%; 
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 10px; 
+    box-shadow: 5px 2px 2px rgba(235, 234, 236, 0.473); 
+}
+
+.shape i {
+
+    color: white;
+    font-size: 24px; /* Adjust icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.skill-label {
+    /* Styles for the skill name */
+    /* Example: */
+    color: white;
+    font-weight: bold;
+    font-size: 12px; /* Adjust text size */
+    text-align: center; /* Center align the text */
+}
+</style>

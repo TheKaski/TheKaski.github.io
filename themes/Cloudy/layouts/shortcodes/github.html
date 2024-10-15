@@ -1,0 +1,6 @@
+<!--This shortcode allows to add customizable github link in your markdown posts -->
+{{ $repo := .Get "repo" }}
+{{ $text := .Get "text" | default "GitHub" }}
+<a href="https://github.com/{{ $repo }}" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github"></i> {{ $text }}
+</a>

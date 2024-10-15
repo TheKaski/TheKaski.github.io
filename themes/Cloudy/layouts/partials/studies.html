@@ -1,0 +1,52 @@
+<!--This partial is responible for rendering all your studies topics from config.toml please update them accordingly -->
+<div class="partial">
+    <div class="studies">
+        <h2>{{ .Site.Params.studiesHeader | default "Studies" }}</h2>
+
+        {{ $studies := .Site.Params.studies }}
+        {{ $sortedStudies := sort $studies ".weight" "desc" }}
+        {{ range $sortedStudies}}
+        <div class="study">
+            <i class="{{ .icon }}"></i>
+            <div class="study-details">
+                <div class="study-name">{{ .name }}</div>
+                <div class="study-bar" style="width: {{ mul .weight 50 }}px;"></div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+<style>
+.studies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+}
+
+.study {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.study i {
+    display: flex;
+    font-size: 18px;
+    min-width: 20px;
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.study-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.study-bar {
+    height: 4px; /* Height of the study bar */
+    background-color: hsl(288, 75%, 55%); /* Example color for the study bar */
+}
+
+</style>

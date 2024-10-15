@@ -1,0 +1,13 @@
+<!--This shortcode is responsible for rendering instagram blockquotes from markdown directly -->
+<style>
+    .instagram-embed {
+        max-width: 320px;
+        /* Adjust max-width as per your preference */
+        margin: 0 auto;
+        /* Center the embed */
+    }
+</style>
+<div class="instagram-embed">
+    {{ .Inner| safeHTML }}
+</div>
+

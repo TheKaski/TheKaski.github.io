@@ -1,0 +1,10 @@
+
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+<figure>
+    <img src="{{ $src }}" title="{{ $title }}" style="width: {{ $width }};
+        height: {{ $height }};" />
+    {{ if $title }}<figcaption>{{ $title }}</figcaption>{{ end }}
+</figure>

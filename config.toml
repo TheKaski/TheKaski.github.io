@@ -1,0 +1,81 @@
+baseURL = ''
+languageCode = 'en-us'
+theme = "Cloudy"
+title = 'Emil Kaskikallio Portfolio'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 20
+
+# Custom global variables used by the site. Please modify them to suit your needs
+[params]
+author = "Emil Kaskikallio"
+contactHeader = "Contact me"
+copyright = "© Emil Kaskikallio all rights reserved."
+recentProjectsLimit = 2
+siteDescription = "Welcome to my professional portfolio. Here you can find my projects, skills, and contact information."
+skills = [
+  {name = "HTML", icon = "fa-brands fa-html5", color = "#eb7734"},
+  {name = "CSS", icon = "fa-brands fa-css3-alt", color = "#72a3e8"},
+  {name = "JavaScript", icon = "fa-brands fa-js", color = "#e8c62e"},
+  {name = "NodeJS", icon = "fa-brands fa-node", color = "#16990f"},
+  {name = "VueJS", icon = "fa-brands fa-vuejs", color = "#54c947"},
+  {name = "ReactJS", icon = "fa-brands fa-react", color = "#1db4de"},
+  {name = "ThreeJS", icon = "fa-solid fa-cube", color = "#1d77de"},
+  {name = "Arduino", icon = "fa-solid fa-robot", color = "#13a89e"},
+  {name = "C++", icon = "fa-solid fa-microchip", color = " #2413a8"},
+  {name = "Erlang", icon = "fa-brands fa-erlang", color = " #a8133a"},
+  {name = "Python", icon = "fa-brands fa-python", color = "#dbce12"},
+  {name = "Java", icon = "fa-brands fa-java", color = "#4281f5"},
+  {name = "Scala", icon = "fa-solid fa-database", color = "#266f80"},
+  {name = "SQL", icon = "fa-solid fa-database", color = "#f07c1d"},
+  {name = "Gnu Bash", icon = "fa-solid fa-terminal", color = "#b449c4"},
+]
+skillsHeader = "My Programming languages"
+tools = [
+  {name = "GitHub", icon = "fa-brands fa-github", color = "#2dba4e"},
+  {name = "GitLab", icon = "fa-brands fa-gitlab", color = "#ed7b11"},
+  {name = "NPM", icon = "fa-brands fa-npm", color = "#c41818"},
+  {name = "Linux", icon = "fa-brands fa-linux", color = "#f0b71d"},
+  {name = "Proxmox", icon = "fa-solid fa-server", color = "#f0831d"},
+  {name = "MongoDB", icon = "fa-solid fa-database", color = "#2ef01d"},
+  {name = "VSCode", icon = "fa-solid fa-code", color = "#1783c2"},
+  {name = "Vim", icon = "fa-brands fa-vimeo", color = "#25a816"},
+]
+
+githubheader = "My Github Stats"
+studies = [
+  {name = "Data-analytics", icon = "fa-regular fa-chart-bar", weight = 3},
+  {name = "Business", icon = "fa-solid fa-briefcase", weight = 6},
+  {name = "Software testing", icon = "fa-solid fa-bug", weight = 2},
+  {name = "Cybersecurity", icon = "fa-solid fa-hat-cowboy", weight = 2},
+  {name = "AI and Machine learning", icon = "fa-solid fa-robot", weight = 2},
+  {name = "Web development", icon = "fa-solid fa-globe", weight = 3},
+  {name = "Programming and Software Development", icon = "fa-solid fa-code", weight = 12},
+  {name = "Mathemathics", icon = "fa-solid fa-calculator", weight = 7},
+  {name = "Physics", icon = "fa-solid fa-gauge", weight = 3},
+  {name = "Project management", icon = "fa-solid fa-diagram-project", weight = 3},
+  {name = "Database management", icon = "fa-solid fa-database", weight = 2},
+  {name = "Requirements engineering", icon = "fa-solid fa-list", weight = 1},
+]
+studiesHeader = "My Studies"
+toolsHeader = "My Tools"
+viewMoreText = "View more projects"
+
+# You can add more contact info by copying this template and modifying the text and icon
+# A list of icons you can use can be found from: https://fontawesome.com/
+[[params.social]]
+icon = "fa-brands fa-github"
+link = "https://github.com/TheKaski"
+name = "GitHub"
+
+[[params.social]]
+icon = "fa-brands fa-instagram"
+link = "https://www.instagram.com/emilechoes/"
+name = "Instagram"

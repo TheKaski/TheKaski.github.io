@@ -1,0 +1,7 @@
+<div class="custom-contact-container">
+    <h3>{{.Site.Params.contactHeader}}</h3>
+    {{ range .Site.Params.social }}
+    <a href="{{ .link }}"><i class="{{ .icon }}"></i> {{ .name }}</a><br>
+    {{ end }}
+</div>
+<p>Copyright {{ now.Year }}. {{ .Site.Params.copyright }}</p>
