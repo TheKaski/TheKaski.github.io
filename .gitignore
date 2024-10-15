@@ -16,3 +16,18 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# Ignore Hugo cache
+.cache/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore node_modules if you're using Node.js
+node_modules/
+
+# Ignore any compiled binary files
+*.exe
+*.o
+*.out
