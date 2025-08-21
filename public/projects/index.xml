@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 19 Jul 2024 14:04:20 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Portfolio website using HUGO framework with github pages</title>
+      <title>Portfolio website using HUGO framework and github pages</title>
       <link>//localhost:1313/projects/portfolio/</link>
       <pubDate>Fri, 19 Jul 2024 14:04:20 +0300</pubDate>
       <guid>//localhost:1313/projects/portfolio/</guid>
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>DIY Bird Spotting Camera</title>
-      <link>//localhost:1313/projects/bird-spotting-camera/</link>
+      <link>//localhost:1313/projects/birdspotting/</link>
       <pubDate>Fri, 29 Dec 2023 13:34:13 +0300</pubDate>
-      <guid>//localhost:1313/projects/bird-spotting-camera/</guid>
+      <guid>//localhost:1313/projects/birdspotting/</guid>
       <description>During the winter holiday I wanted to film some birds in my back yard. Filming birds however can be really tedious as you have to be really close inorder to get a good shot, and inorder to get that close the bird should not be able to detect you. However I managed to get some good shots with a DIY setup of my own:&#xA;Näytä tämä julkaisu Instagramissa Henkilön Emil (@emilechoes) jakama julkaisu</description>
     </item>
   </channel>

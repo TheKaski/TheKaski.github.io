@@ -1,7 +1,8 @@
 +++
-title = 'Portfolio website using HUGO framework with github pages'
+title = 'Portfolio website using HUGO framework and github pages'
 date = "2024-07-19T14:04:20+03:00"
 draft = false
+thumbnailImage = "https://gohugo.io/img/hugo-logo.png"
 summaryText = "In this project I created my first portfolio page from scratch using HUGO framework. If you are reading this there is a high chance you are viewing this page right now. If you want to know more about this project you can read the full article"
 +++
 

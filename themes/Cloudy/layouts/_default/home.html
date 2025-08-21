@@ -15,7 +15,7 @@
 
   {{ .Content }}
 
-  {{ partial "project-list.html" (first 3 site.RegularPages) }}
+  {{ partial "project-list.html" (first 4 site.RegularPages) }}
 
   <div class = "custom-button">
     <h3><a href="/projects">{{ .Site.Params.viewMoreText | default "See more" }}</a></h3>
