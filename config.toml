@@ -18,7 +18,7 @@ weight = 20
 author = "Emil Kaskikallio"
 contactHeader = "Contact me"
 copyright = "© Emil Kaskikallio all rights reserved."
-recentProjectsLimit = 2
+recentProjectsLimit = 1
 siteDescription = "Welcome to my professional portfolio. Here you can find my projects, skills, and contact information."
 skills = [
   {name = "HTML", icon = "fa-brands fa-html5", color = "#eb7734"},
