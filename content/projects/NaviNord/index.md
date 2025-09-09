@@ -30,7 +30,7 @@ The project used the following hardware:
     frameborder="0"
     allowfullscreen
     webkitallowfullscreen
->
+></iframe>
 
 
 The virtual environment was powered by Unity and development included creating the 3D realistic forest environment, interractable 3D menus and developping the data collection method. Additionally the project included a benchmarking mode for testing performance differences between different hardware combinations and a recovery seed system for recovering the randomized order of landmarks for each participant in case of errors. The environment contained multiple tasks collecting data from the performance of each participant. This data was stored in separate .csv file identified and created for each participant. The code was stored in a private GitHub repository where also a Kanban board was used to track different tasks around the project.
