@@ -21,6 +21,18 @@ The project used the following hardware:
 4. KATVR omnidirectional slidemill
 5. AromaJoin Aromashootter
 
+
+<iframe src="https://mfr.de-1.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fyferv%2F%3Fdirect%26mode%3Drender"
+    width="100%"
+    scrolling="yes"
+    height="677px"
+    marginheight="0"
+    frameborder="0"
+    allowfullscreen
+    webkitallowfullscreen
+>
+
+
 The virtual environment was powered by Unity and development included creating the 3D realistic forest environment, interractable 3D menus and developping the data collection method. Additionally the project included a benchmarking mode for testing performance differences between different hardware combinations and a recovery seed system for recovering the randomized order of landmarks for each participant in case of errors. The environment contained multiple tasks collecting data from the performance of each participant. This data was stored in separate .csv file identified and created for each participant. The code was stored in a private GitHub repository where also a Kanban board was used to track different tasks around the project.
 
 Check out my [master's thesis written along this project](https://trepo.tuni.fi/handle/10024/228449) for more details.

@@ -3,6 +3,12 @@ languageCode = 'en-us'
 theme = "Cloudy"
 title = 'Emil Kaskikallio Portfolio'
 
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
