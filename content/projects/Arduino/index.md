@@ -1,5 +1,5 @@
 +++
-title = 'Cycling data tracking withArduino and BLE'
+title = 'Cycling data tracking with Arduino and BLE'
 date = 2024-06-17T14:23:01+03:00
 draft = false
 summaryText = "In this project I implemented a standalone cycling speedometer with custom software and 3D printed housing. The device tracks important metrics for cylcing which are speed, avg speed, cadence, and distance. It supports showing the data  on a 7-segment led display and transmitting data over BLE communication protocol to third party mobile applications. The BLE support allows to pair this device with many thirdparty fitness applications making it easy to gather and review cycling metrics"
